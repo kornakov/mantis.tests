@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mantis.tests", "mantis.tests\mantis.tests.csproj", "{A9AC1626-0291-4CB5-8917-A20EDCA6B210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA0E9742-A4A0-4AE3-8076-72D4AB418A1F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes.txt = .gitattributes.txt
+		.gitignore.txt = .gitignore.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9AC1626-0291-4CB5-8917-A20EDCA6B210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AC1626-0291-4CB5-8917-A20EDCA6B210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AC1626-0291-4CB5-8917-A20EDCA6B210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AC1626-0291-4CB5-8917-A20EDCA6B210}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD565217-644C-4AFD-A5C5-402EBF369A0B}
+	EndGlobalSection
+EndGlobal
