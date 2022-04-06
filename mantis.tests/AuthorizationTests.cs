@@ -160,32 +160,33 @@ namespace mantis.tests
             Assert.AreEqual(msg.Text, "Возможно, ваша учётная запись заблокирована, или введённое регистрационное имя/пароль неправильны.");
         }
 
-        /// <summary>
-        /// Вход реального пользователя с корректным паролем. 
-        /// </summary>
-        [Test]
-        public void RealLoginAndRealPass_Success()
-        {
-            // Вход
-            driver.FindElement(By.XPath(@"//*[@id='breadcrumbs']/ul/div/a[1]"))
-                  .Click();
+        ///// <summary>
+        ///// Вход реального пользователя с корректным паролем. 
+        ///// </summary>
+        //[Ignore("sdfsd")]
+        //[Test]
+        //public void RealLoginAndRealPass_Success()
+        //{
+        //    // Вход
+        //    driver.FindElement(By.XPath(@"//*[@id='breadcrumbs']/ul/div/a[1]"))
+        //          .Click();
 
-            // Заполнение корректным логином
-            driver.FindElement(By.XPath(@"//*[@id='username']"))
-                  .SendKeys(correctLogin);
-            driver.FindElement(By.XPath(@"//*[@id='login-form']/fieldset/input[2]"))
-                  .Click();
+        //    // Заполнение корректным логином
+        //    driver.FindElement(By.XPath(@"//*[@id='username']"))
+        //          .SendKeys(correctLogin);
+        //    driver.FindElement(By.XPath(@"//*[@id='login-form']/fieldset/input[2]"))
+        //          .Click();
 
-            // Заполнение корректным паролем
-            driver.FindElement(By.XPath(@"//*[@id='password']"))
-                  .SendKeys(correctPassword);
-            driver.FindElement(By.XPath(@"//*[@id='login-form']/fieldset/input[3]"))
-                  .Click();
+        //    // Заполнение корректным паролем
+        //    driver.FindElement(By.XPath(@"//*[@id='password']"))
+        //          .SendKeys(correctPassword);
+        //    driver.FindElement(By.XPath(@"//*[@id='login-form']/fieldset/input[3]"))
+        //          .Click();
 
-            // Проверка входа
-            var msg = driver.FindElement(By.XPath(@"//*[@id='breadcrumbs']/ul/li/a"));
-            StringAssert.Contains(correctLogin, msg.Text);
-        }
+        //    // Проверка входа
+        //    var msg = driver.FindElement(By.XPath(@"//*[@id='breadcrumbs']/ul/li/a"));
+        //    StringAssert.Contains(correctLogin, msg.Text);
+        //}
 
         /// <summary>
         /// Действие после теста.
