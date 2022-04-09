@@ -4,7 +4,6 @@ using NUnit.Allure.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System.Threading;
 
 namespace mantis.tests
 {
@@ -12,7 +11,6 @@ namespace mantis.tests
     /// Тесты на авторизацию. 
     /// </summary>
     [AllureNUnit]
-    [AllureDisplayIgnored]
     [TestFixture]
     class AuthorizationTests : BasicTests
     {
@@ -168,7 +166,6 @@ namespace mantis.tests
         /// <summary>
         /// Вход реального пользователя с корректным паролем. 
         /// </summary>
-        [Ignore("sdfsd")]
         [Test]
         public void RealLoginAndRealPass_Success()
         {
