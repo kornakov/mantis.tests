@@ -1,6 +1,6 @@
 ﻿{
   "allure": {
-    "directory": "C:\\Users\\Kirill Kornakov\\source\\repos\\mantis.tests\\mantis.tests\\allure-results\\",
+    "directory": "allure-results",
     "links": [
       "{link}",
       "https://testrail.com/browse/{tms}",
